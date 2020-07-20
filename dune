@@ -1,1 +1,2 @@
 (executable (name main))
+(rule (mode promote) (action (with-stdout-to output.vim (run ./main.exe))))
